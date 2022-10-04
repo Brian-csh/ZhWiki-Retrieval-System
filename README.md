@@ -6,7 +6,8 @@ The ZhWiki Retrieval System searches relevant texts from the Chinese Wikipedia d
 ### setup
 - download [contriever] (https://github.com/facebookresearch/contriever) libary, and place it in the root directory of this project
 - the model files should be placed in the folder `mcontriever`
-- the embeddings are placed under keys folder, and the text database is in the file text_database.json. All of these are placed under a folder named `database`
+- the embeddings are to be placed under `keys` folder, and the text database is to be in the file `text_database.json`. All of these are placed under a folder named `database`
+- other dependencies include pytorch and huggingface transformers library
 ```
     python knn.py <query> <k>
     # e.g. python knn.py "数学的历史中，欧几里得的著作" 8
