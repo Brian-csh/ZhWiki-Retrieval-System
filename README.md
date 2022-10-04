@@ -4,7 +4,7 @@ This repository is part of a research on low-data/few-shot text generation.
 The ZhWiki Retrieval System searches relevant texts from the Chinese Wikipedia database, given some query in the form of text. The retrieval system uses the mcontriever model to pre-calculate the embeddings of the chunks from Chinese Wikipedia articles. To search for relevant chunks, the input query is embedded. Then, k-nearest neighbors (k-NN) algorithm is used to retrieve these chunks of text. The L2 distance is used to compute the similarity between the embeddings.
 ## Usage
 ### setup
-- download [contriever] (https://github.com/facebookresearch/contriever) libary, and place it in the root directory of this project
+- download [contriever](https://github.com/facebookresearch/contriever) libary, and place it in the root directory of this project
 - the model files should be placed in the folder `mcontriever`
 - the embeddings are to be placed under `keys` folder, and the text database is to be in the file `text_database.json`. All of these are placed under a folder named `database`
 - other dependencies include pytorch and huggingface transformers library
