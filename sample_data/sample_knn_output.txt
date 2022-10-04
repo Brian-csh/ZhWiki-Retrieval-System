@@ -1,0 +1,10 @@
+knn("数学的历史中，欧几里得的著作", 8)
+
+[{'neighbor': '古希腊数学家欧几里得是通过', 'continuation': '', 'index': 369793, 'article_title': '完全数', 'article_id': 'wiki-5827'}, 
+ {'neighbor': '欧几里得，古希腊数学家', 'continuation': '', 'index': 17164534, 'article_title': 'Euclid (消歧义)', 'article_id': 'wiki-1005294'}, 
+ {'neighbor': '欧几里得几何指按照欧几里得的《几何原本》构造的几何学。', 'continuation': '', 'index': 1506483, 'article_title': '欧几里得几何', 'article_id': 'wiki-29603'}, 
+ {'neighbor': '欧几里得在他的著作《几何原本》（第九卷的定理20）提出了证明，大意如下：', 'continuation': '', 'index': 8363900, 'article_title': '欧几里得定理', 'article_id': 'wiki-324455'}, 
+ {'neighbor': '如今，欧几里得几何的构造通常不是通过公理化方法，而是通过解析几何。通过这种方法，可以像证明定理一样证明欧几里得几何（或非欧几里得', 'continuation': '几何）中的公理。这一方法没有公理方法那么漂亮，但绝对简练。', 'index': 1506506, 'article_title': '欧几里得几何', 'article_id': 'wiki-29603'}, 
+ {'neighbor': '欧几里得几何的传统描述是一个公理系统，通过有限的公理来证明所有的真命题。', 'continuation': '', 'index': 1506489, 'article_title': '欧几里得几何', 'article_id': 'wiki-29603'}, 
+ {'neighbor': '几何学家是研究几何学的数学家。', 'continuation': '', 'index': 8704290, 'article_title': '几何学家列表', 'article_id': 'wiki-342270'}, 
+ {'neighbor': '他最出名的著作是《数学史讲义》，它全面揭示了数学发展的历程：', 'continuation': '', 'index': 16569909, 'article_title': '莫里兹·贝内迪克特·康托尔', 'article_id': 'wiki-957385'}]
