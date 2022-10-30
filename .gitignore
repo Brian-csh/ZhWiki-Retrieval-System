@@ -1,8 +1,8 @@
 contriever/
 __pycache__/
 database/
-sample_result/
-test/
-utils_and_others/
 mcontriever/
 wiki.json
+CLUECorpusSmall/
+test/
+utils_and_others/
