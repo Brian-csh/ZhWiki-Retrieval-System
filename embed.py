@@ -1,6 +1,6 @@
 import os
 import sys
-sys.path.insert(0, os.getcwd() + "/../contriever")
+sys.path.insert(0, os.getcwd() + "/contriever")
 import json
 import torch
 from transformers import AutoTokenizer
@@ -13,14 +13,15 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 @torch.no_grad()
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument("model_path", help="path to the model")
     parser.add_argument("input_file", help="text file containing the neighbor-continuation pairs")
     parser.add_argument("output_dir", help="path to the output directory")
     parser.add_argument("tensors_per_file", type=int, help="number of tensors to be stored within a single .pt file")
     args = parser.parse_args()
 
 
-    TOKENIZER = AutoTokenizer.from_pretrained('../mcontriever')
-    MODEL = Contriever.from_pretrained('../mcontriever').to(device)
+    TOKENIZER = AutoTokenizer.from_pretrained(args.model_path)
+    MODEL = Contriever.from_pretrained(args.model_path).to(device)
     MODEL.eval()
     print("model loaded.")
 
